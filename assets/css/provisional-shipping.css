@@ -1,0 +1,222 @@
+/**
+ * Provisional Shipping Styles
+ */
+
+.wc-deposits-ps-provisional-shipping {
+	border: 2px dashed #ccc;
+	padding: 20px;
+	margin: 20px 0;
+	background: #f9f9f9;
+	border-radius: 8px;
+}
+
+.wc-deposits-ps-provisional-shipping h3 {
+	margin: 0 0 15px 0;
+	color: #333;
+	font-size: 1.2em;
+}
+
+.provisional-notice {
+	background: #fff3cd;
+	border: 1px solid #ffeaa7;
+	padding: 15px;
+	margin: 15px 0;
+	border-radius: 4px;
+	color: #856404;
+}
+
+.provisional-notice p {
+	margin: 0;
+	font-size: 0.9em;
+	line-height: 1.4;
+}
+
+.shipping-options {
+	margin: 20px 0;
+}
+
+.shipping-option {
+	display: flex;
+	align-items: center;
+	padding: 12px;
+	border: 1px solid #ddd;
+	margin: 8px 0;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: all 0.2s ease;
+	background: #fff;
+}
+
+.shipping-option:hover {
+	background: #f0f0f0;
+	border-color: #999;
+}
+
+.shipping-option input[type="radio"] {
+	margin-right: 10px;
+}
+
+.shipping-option input[type="radio"]:checked + .method-title {
+	font-weight: bold;
+	color: #0073aa;
+}
+
+.method-title {
+	flex: 1;
+	font-weight: 500;
+}
+
+.method-cost {
+	margin-left: 10px;
+	color: #666;
+	font-size: 0.9em;
+}
+
+.method-zone {
+	margin-left: 10px;
+	color: #999;
+	font-size: 0.8em;
+	font-style: italic;
+}
+
+.terms-acceptance {
+	margin: 20px 0;
+	padding: 15px;
+	background: #f8f9fa;
+	border-radius: 4px;
+}
+
+.terms-checkbox {
+	display: flex;
+	align-items: flex-start;
+	cursor: pointer;
+}
+
+.terms-checkbox input[type="checkbox"] {
+	margin-right: 10px;
+	margin-top: 2px;
+}
+
+.terms-text {
+	font-size: 0.9em;
+	line-height: 1.4;
+	color: #555;
+}
+
+.provisional-shipping-display {
+	margin-top: 15px;
+	padding: 10px;
+	background: #e8f5e8;
+	border: 1px solid #c3e6c3;
+	border-radius: 4px;
+}
+
+.selected-method {
+	margin: 0;
+	font-size: 0.9em;
+}
+
+.selected-method strong {
+	color: #2d5a2d;
+}
+
+.selected-method small {
+	color: #666;
+}
+
+/* Order details page styles */
+.wc-deposits-ps-order-shipping-info {
+	margin: 20px 0;
+	padding: 20px;
+	background: #f9f9f9;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+}
+
+.wc-deposits-ps-order-shipping-info h3 {
+	margin: 0 0 15px 0;
+	color: #333;
+}
+
+.provisional-shipping-details p {
+	margin: 8px 0;
+}
+
+.final-shipping-details {
+	margin-top: 20px;
+	padding-top: 15px;
+	border-top: 1px solid #ddd;
+}
+
+.final-shipping-details h4 {
+	margin: 0 0 10px 0;
+	color: #333;
+}
+
+/* Admin styles */
+.provisional-shipping-admin-info {
+	margin: 15px 0;
+	padding: 15px;
+	background: #f9f9f9;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+}
+
+.provisional-shipping-admin-info h3 {
+	margin: 0 0 10px 0;
+	color: #333;
+}
+
+.provisional-shipping-admin-info p {
+	margin: 5px 0;
+}
+
+.provisional-notice {
+	font-style: italic;
+	color: #666;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+	.shipping-option {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	
+	.method-cost,
+	.method-zone {
+		margin-left: 0;
+		margin-top: 5px;
+	}
+	
+	.terms-checkbox {
+		flex-direction: column;
+	}
+	
+	.terms-checkbox input[type="checkbox"] {
+		margin-bottom: 10px;
+	}
+}
+
+/* Block checkout compatibility */
+.wc-block-checkout .wc-deposits-ps-provisional-shipping {
+	margin: 0;
+	border: none;
+	background: transparent;
+}
+
+.wc-block-checkout .provisional-notice {
+	background: #fff3cd;
+	border: 1px solid #ffeaa7;
+}
+
+/* Focus states for accessibility */
+.shipping-option:focus-within {
+	outline: 2px solid #0073aa;
+	outline-offset: 2px;
+}
+
+.terms-checkbox:focus-within {
+	outline: 2px solid #0073aa;
+	outline-offset: 2px;
+} 

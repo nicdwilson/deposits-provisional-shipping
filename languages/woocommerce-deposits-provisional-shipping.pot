@@ -1,0 +1,177 @@
+# Copyright (C) 2024 WooCommerce Deposits Provisional Shipping
+# This file is distributed under the same license as the WooCommerce Deposits Provisional Shipping package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Deposits Provisional Shipping 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woocommerce-deposits-provisional-shipping\n"
+"POT-Creation-Date: 2024-01-01 12:00+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2024-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: includes/class-wc-deposits-ps-cart-manager.php:147
+msgid "Default Zone"
+msgstr ""
+
+#: includes/class-wc-deposits-ps-checkout-manager.php:89
+msgid "Please select a provisional shipping method."
+msgstr ""
+
+#: includes/class-wc-deposits-ps-checkout-manager.php:95
+msgid "You must accept the provisional shipping terms to continue."
+msgstr ""
+
+#: includes/class-wc-deposits-ps-checkout-manager.php:125
+msgid "Please select a shipping method."
+msgstr ""
+
+#: includes/class-wc-deposits-ps-checkout-manager.php:127
+msgid "You must accept the provisional shipping terms."
+msgstr ""
+
+#: includes/class-wc-deposits-ps-order-manager.php:89
+msgid "Provisional Shipping Information"
+msgstr ""
+
+#: includes/class-wc-deposits-ps-order-manager.php:92
+msgid "Selected Method:"
+msgstr ""
+
+#: includes/class-wc-deposits-ps-order-manager.php:95
+msgid "Estimated Cost:"
+msgstr ""
+
+#: includes/class-wc-deposits-ps-order-manager.php:98
+msgid "Note: This is a provisional selection. The final shipping cost will be calculated and charged separately upon completion of the payment plan."
+msgstr ""
+
+#: includes/class-wc-deposits-ps-order-manager.php:158
+msgid "Final Shipping Cost"
+msgstr ""
+
+#: includes/class-wc-deposits-ps-order-manager.php:161
+msgid "Final Cost:"
+msgstr ""
+
+#: includes/class-wc-deposits-ps-order-manager.php:164
+msgid "Difference from Estimate:"
+msgstr ""
+
+#: includes/class-wc-deposits-ps-order-manager.php:170
+msgid "+%s"
+msgstr ""
+
+#: includes/class-wc-deposits-ps-order-manager.php:172
+msgid "-%s"
+msgstr ""
+
+#: includes/class-wc-deposits-ps-order-manager.php:174
+msgid "No difference"
+msgstr ""
+
+#: includes/class-wc-deposits-ps-order-manager.php:185
+msgid "Final shipping cost calculated and charged: %s"
+msgstr ""
+
+#: includes/class-wc-deposits-ps-order-manager.php:195
+msgid "Customer notified of final shipping cost: %s"
+msgstr ""
+
+#: includes/class-wc-deposits-ps-order-manager.php:210
+msgid "Provisional Shipping Method"
+msgstr ""
+
+#: includes/class-wc-deposits-ps-order-manager.php:211
+msgid "Provisional Shipping Cost"
+msgstr ""
+
+#: includes/class-wc-deposits-ps-order-manager.php:212
+msgid "Final Shipping Cost"
+msgstr ""
+
+#: includes/class-wc-deposits-ps-shipping-calculator.php:185
+msgid "Default Zone"
+msgstr ""
+
+#: includes/class-wc-deposits-ps-shipping-calculator.php:285
+msgid "Security check failed."
+msgstr ""
+
+#: includes/class-wc-deposits-ps-shipping-calculator.php:290
+msgid "Order not found."
+msgstr ""
+
+#: templates/provisional-shipping-form.php:15
+msgid "Provisional Shipping Selection"
+msgstr ""
+
+#: templates/provisional-shipping-form.php:19
+msgid "Since you have selected a payment plan, shipping costs will be calculated and charged separately upon completion of your payments. Please select your preferred shipping method below (this is provisional and may change based on final delivery requirements)."
+msgstr ""
+
+#: templates/provisional-shipping-form.php:29
+msgid "estimated"
+msgstr ""
+
+#: templates/provisional-shipping-form.php:37
+msgid "I understand that shipping costs are provisional and will be calculated separately upon completion of my payment plan. The final shipping cost may differ from the estimated cost shown above."
+msgstr ""
+
+#: templates/provisional-shipping-form.php:44
+msgid "Selected:"
+msgstr ""
+
+#: templates/provisional-shipping-form.php:46
+msgid "Estimated cost:"
+msgstr ""
+
+#: templates/order-details-shipping.php:12
+msgid "Provisional Shipping Information"
+msgstr ""
+
+#: templates/order-details-shipping.php:15
+msgid "Selected Method:"
+msgstr ""
+
+#: templates/order-details-shipping.php:19
+msgid "Estimated Cost:"
+msgstr ""
+
+#: templates/order-details-shipping.php:23
+msgid "Note: This is a provisional selection. The final shipping cost will be calculated and charged separately upon completion of your payment plan."
+msgstr ""
+
+#: templates/order-details-shipping.php:30
+msgid "Final Shipping Cost"
+msgstr ""
+
+#: templates/order-details-shipping.php:33
+msgid "Final Cost:"
+msgstr ""
+
+#: templates/order-details-shipping.php:37
+msgid "Difference from Estimate:"
+msgstr ""
+
+#: templates/order-details-shipping.php:43
+msgid "+%s"
+msgstr ""
+
+#: templates/order-details-shipping.php:45
+msgid "-%s"
+msgstr ""
+
+#: templates/order-details-shipping.php:47
+msgid "No difference"
+msgstr ""
+
+#: woocommerce-deposits-provisional-shipping.php:89
+msgid "WooCommerce Deposits Provisional Shipping requires %s to be installed and active."
+msgstr ""
+
+#: woocommerce-deposits-provisional-shipping.php:97
+msgid "WooCommerce Deposits Provisional Shipping requires %s to be installed and active."
+msgstr "" 
